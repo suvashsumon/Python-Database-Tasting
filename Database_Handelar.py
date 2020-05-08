@@ -1,6 +1,6 @@
 import sqlite3
 
-con = sqlite3.connect("CSE_Sompurok_27_RU.db")
+con = sqlite3.connect("database.db")
 cur = con.cursor()
 
 f = open("mail.txt",'a')
